@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1, "fecha": "2026-06-28T10:15:00", "clienteId": 1, "clienteNombre": "María Fernanda Quispe Rojas",
+    "metodoPago": "Efectivo", "vendedorId": 2, "vendedorNombre": "Vendedor Nova Salud",
+    "items": [
+      { "productoId": 1, "nombre": "Paracetamol 500mg x100", "cantidad": 2, "precioUnitario": 6.00, "subtotal": 12.00 },
+      { "productoId": 9, "nombre": "Alcohol 70° 250ml", "cantidad": 1, "precioUnitario": 5.00, "subtotal": 5.00 }
+    ],
+    "subtotal": 17.00, "igv": 3.06, "total": 20.06
+  },
+  {
+    "id": 2, "fecha": "2026-06-28T16:40:00", "clienteId": null, "clienteNombre": "Cliente general",
+    "metodoPago": "Yape", "vendedorId": 2, "vendedorNombre": "Vendedor Nova Salud",
+    "items": [
+      { "productoId": 2, "nombre": "Ibuprofeno 400mg x100", "cantidad": 1, "precioUnitario": 7.50, "subtotal": 7.50 },
+      { "productoId": 6, "nombre": "Omeprazol 20mg x14", "cantidad": 1, "precioUnitario": 9.90, "subtotal": 9.90 }
+    ],
+    "subtotal": 17.40, "igv": 3.13, "total": 20.53
+  },
+  {
+    "id": 3, "fecha": "2026-06-29T09:05:00", "clienteId": 2, "clienteNombre": "Carlos Alberto Mendoza Silva",
+    "metodoPago": "Tarjeta", "vendedorId": 1, "vendedorNombre": "Administrador Nova Salud",
+    "items": [
+      { "productoId": 3, "nombre": "Amoxicilina 500mg x30", "cantidad": 1, "precioUnitario": 15.00, "subtotal": 15.00 }
+    ],
+    "subtotal": 15.00, "igv": 2.70, "total": 17.70
+  },
+  {
+    "id": 4, "fecha": "2026-06-30T11:30:00", "clienteId": 3, "clienteNombre": "Rosa Elena Torres Vega",
+    "metodoPago": "Efectivo", "vendedorId": 2, "vendedorNombre": "Vendedor Nova Salud",
+    "items": [
+      { "productoId": 4, "nombre": "Panadol Antigripal x24", "cantidad": 1, "precioUnitario": 12.00, "subtotal": 12.00 },
+      { "productoId": 7, "nombre": "Loratadina 10mg x10", "cantidad": 2, "precioUnitario": 6.90, "subtotal": 13.80 }
+    ],
+    "subtotal": 25.80, "igv": 4.64, "total": 30.44
+  },
+  {
+    "id": 5, "fecha": "2026-06-30T18:00:00", "clienteId": null, "clienteNombre": "Cliente general",
+    "metodoPago": "Plin", "vendedorId": 2, "vendedorNombre": "Vendedor Nova Salud",
+    "items": [
+      { "productoId": 10, "nombre": "Algodón 100g", "cantidad": 3, "precioUnitario": 4.00, "subtotal": 12.00 },
+      { "productoId": 11, "nombre": "Mascarillas Quirúrgicas x50", "cantidad": 1, "precioUnitario": 25.00, "subtotal": 25.00 }
+    ],
+    "subtotal": 37.00, "igv": 6.66, "total": 43.66
+  },
+  {
+    "id": 6, "fecha": "2026-07-01T10:00:00", "clienteId": 4, "clienteNombre": "Jorge Luis Ramírez Paredes",
+    "metodoPago": "Efectivo", "vendedorId": 1, "vendedorNombre": "Administrador Nova Salud",
+    "items": [
+      { "productoId": 1, "nombre": "Paracetamol 500mg x100", "cantidad": 1, "precioUnitario": 6.00, "subtotal": 6.00 },
+      { "productoId": 5, "nombre": "Aspirina 100mg x100", "cantidad": 2, "precioUnitario": 5.50, "subtotal": 11.00 }
+    ],
+    "subtotal": 17.00, "igv": 3.06, "total": 20.06
+  },
+  {
+    "id": 7, "fecha": "2026-07-01T15:20:00", "clienteId": 5, "clienteNombre": "Ana Lucía Huamán Castro",
+    "metodoPago": "Yape", "vendedorId": 2, "vendedorNombre": "Vendedor Nova Salud",
+    "items": [
+      { "productoId": 12, "nombre": "Vitamina C 1g Efervescente x10", "cantidad": 1, "precioUnitario": 20.00, "subtotal": 20.00 },
+      { "productoId": 18, "nombre": "Complejo B x30", "cantidad": 1, "precioUnitario": 15.00, "subtotal": 15.00 }
+    ],
+    "subtotal": 35.00, "igv": 6.30, "total": 41.30
+  },
+  {
+    "id": 8, "fecha": "2026-07-02T09:45:00", "clienteId": null, "clienteNombre": "Cliente general",
+    "metodoPago": "Tarjeta", "vendedorId": 2, "vendedorNombre": "Vendedor Nova Salud",
+    "items": [
+      { "productoId": 8, "nombre": "Ensure Vainilla 400g", "cantidad": 1, "precioUnitario": 45.00, "subtotal": 45.00 }
+    ],
+    "subtotal": 45.00, "igv": 8.10, "total": 53.10
+  },
+  {
+    "id": 9, "fecha": "2026-07-03T13:10:00", "clienteId": 1, "clienteNombre": "María Fernanda Quispe Rojas",
+    "metodoPago": "Efectivo", "vendedorId": 1, "vendedorNombre": "Administrador Nova Salud",
+    "items": [
+      { "productoId": 2, "nombre": "Ibuprofeno 400mg x100", "cantidad": 2, "precioUnitario": 7.50, "subtotal": 15.00 },
+      { "productoId": 6, "nombre": "Omeprazol 20mg x14", "cantidad": 1, "precioUnitario": 9.90, "subtotal": 9.90 }
+    ],
+    "subtotal": 24.90, "igv": 4.48, "total": 29.38
+  },
+  {
+    "id": 10, "fecha": "2026-07-04T08:30:00", "clienteId": 2, "clienteNombre": "Carlos Alberto Mendoza Silva",
+    "metodoPago": "Plin", "vendedorId": 2, "vendedorNombre": "Vendedor Nova Salud",
+    "items": [
+      { "productoId": 16, "nombre": "Metformina 850mg x30", "cantidad": 1, "precioUnitario": 11.00, "subtotal": 11.00 },
+      { "productoId": 17, "nombre": "Losartán 50mg x30", "cantidad": 1, "precioUnitario": 13.00, "subtotal": 13.00 }
+    ],
+    "subtotal": 24.00, "igv": 4.32, "total": 28.32
+  }
+]

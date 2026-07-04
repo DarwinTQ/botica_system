@@ -1,0 +1,7 @@
+[
+  { "id": 1, "nombre": "María Fernanda Quispe Rojas", "dni": "45678912", "telefono": "987654321", "correo": "maria.quispe@gmail.com" },
+  { "id": 2, "nombre": "Carlos Alberto Mendoza Silva", "dni": "41234567", "telefono": "976543210", "correo": "carlos.mendoza@gmail.com" },
+  { "id": 3, "nombre": "Rosa Elena Torres Vega", "dni": "48765432", "telefono": "965432198", "correo": "rosa.torres@hotmail.com" },
+  { "id": 4, "nombre": "Jorge Luis Ramírez Paredes", "dni": "43219876", "telefono": "954321987", "correo": "jorge.ramirez@gmail.com" },
+  { "id": 5, "nombre": "Ana Lucía Huamán Castro", "dni": "47891234", "telefono": "943219876", "correo": "ana.huaman@gmail.com" }
+]

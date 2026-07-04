@@ -1,0 +1,4 @@
+[
+  { "id": 1, "nombre": "Administrador Nova Salud", "email": "admin@novasalud.com", "password": "admin123", "rol": "ADMINISTRADOR" },
+  { "id": 2, "nombre": "Vendedor Nova Salud", "email": "vendedor@novasalud.com", "password": "vende123", "rol": "VENDEDOR" }
+]

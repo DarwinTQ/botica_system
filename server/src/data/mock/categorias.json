@@ -1,0 +1,12 @@
+[
+  { "id": 1, "nombre": "Analgésicos" },
+  { "id": 2, "nombre": "Antibióticos" },
+  { "id": 3, "nombre": "Antiinflamatorios" },
+  { "id": 4, "nombre": "Gastrointestinal" },
+  { "id": 5, "nombre": "Vitaminas y Suplementos" },
+  { "id": 6, "nombre": "Cuidado Personal" },
+  { "id": 7, "nombre": "Insumos Médicos" },
+  { "id": 8, "nombre": "Respiratorio y Alergias" },
+  { "id": 9, "nombre": "Nutrición" },
+  { "id": 10, "nombre": "Cardio y Metabólico" }
+]
