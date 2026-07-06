@@ -166,6 +166,35 @@ Cuando se quiera conectar Supabase, basta con reescribir cada archivo de `server
 
 ---
 
+## Despliegue en Vercel
+
+El proyecto ya incluye la configuración necesaria ([vercel.json](vercel.json) y [api/index.js](api/index.js)):
+
+- El **frontend** se compila con Vite y se sirve como sitio estático desde `client/dist`.
+- El **backend Express** se empaqueta como una función serverless (`api/index.js`), invocada para toda ruta `/api/*`.
+- Las rutas del SPA (`/dashboard`, `/pos`, etc.) tienen fallback a `index.html`, así que no dan 404 al recargar.
+
+### Pasos
+
+**Opción A — desde GitHub:**
+1. Sube el proyecto a un repositorio.
+2. En Vercel: **Add New → Project** e importa el repositorio.
+3. Si `botica-nova-salud` NO es la raíz del repositorio, configura **Root Directory** apuntando a la carpeta `botica-nova-salud` (Settings → General → Root Directory). Este paso es la causa más común del error `404: NOT_FOUND`.
+4. No cambies nada más: `vercel.json` ya define el build (`npm run build`), la salida (`client/dist`) y los rewrites. Haz clic en **Deploy**.
+
+**Opción B — con la CLI:**
+```bash
+cd botica-nova-salud
+npx vercel        # despliegue de prueba (preview)
+npx vercel --prod # despliegue a producción
+```
+
+### Limitación importante (datos mock)
+
+Los datos viven **en memoria** dentro de la función serverless. En Vercel cada instancia es efímera: las ventas, productos o clientes que crees se perderán cuando la función se recicle (cold start), y los datos vuelven a los JSON semilla. Es el comportamiento esperado para una **prueba/demo**. Para persistencia real, conecta Supabase reemplazando la capa `server/src/services/` (el esquema ya está en `supabase/schema.sql`).
+
+---
+
 ## Notas sobre seguridad
 
 La autenticación actual es **simulada** con contraseñas en texto plano en datos mock, solo para fines de demostración. Antes de llevar este proyecto a producción:
